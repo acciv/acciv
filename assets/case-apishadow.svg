@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" xml:space="preserve"><defs><style>.stamp{animation:st 5s ease-in-out infinite}@keyframes st{0%,100%{opacity:.25}50%{opacity:1}}
+.blink{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+.scan{animation:sc 4s linear infinite}@keyframes sc{0%{transform:translateX(-80px)}100%{transform:translateX(680px)}}</style>
+<linearGradient id="fade" x1="0" x2="1"><stop stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff" stop-opacity=".45"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient></defs>
+<rect width="600" height="230" rx="10" fill="#0d1420" stroke="#16202e"/>
+<rect x="0" y="0" width="6" height="230" fill="#00e5ff"/>
+<text x="26" y="40" font-size="11" letter-spacing="2" fill="#00e5ff">CASE · 004</text>
+<text x="26" y="94" font-size="34" font-weight="700" fill="#e9edf2">apishadow</text>
+<text x="26" y="126" font-size="13" fill="#6e7681">Зеркалит API-трафик и ищет расхождения.</text>
+<line x1="26" y1="146" x2="574" y2="146" stroke="#16202e"/>
+<text x="26" y="176" font-size="12" fill="#00e5ff">GO PROXY  RUST  PYTHON DIFF</text>
+<text x="26" y="208" font-size="11" fill="#00ff9c">OPEN REPO <tspan class="blink">→</tspan></text>
+<g class="stamp" fill="none" stroke="#00e5ff" opacity=".25"><circle cx="520" cy="66" r="42" stroke-width="2"/><circle cx="520" cy="66" r="52" stroke-dasharray="4 7"/></g>
+<text x="520" y="80" text-anchor="middle" font-size="38" fill="#00e5ff" class="stamp">04</text>
+<rect x="0" y="0" width="80" height="230" fill="url(#fade)" class="scan"/></svg>
