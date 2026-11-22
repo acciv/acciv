@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" xml:space="preserve"><defs><style>.ecg{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3.5s linear infinite}@keyframes draw{to{stroke-dashoffset:0}}
+.beat{animation:bp 2.2s ease-in-out infinite}@keyframes bp{50%{transform:scale(1.04);opacity:.8}}</style>
+<filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="900" height="190" rx="10" fill="#0d1420" stroke="#16202e"/>
+<g stroke="#16202e" opacity=".65"><line x1="0" y1="0" x2="0" y2="190"/><line x1="45" y1="0" x2="45" y2="190"/><line x1="90" y1="0" x2="90" y2="190"/><line x1="135" y1="0" x2="135" y2="190"/><line x1="180" y1="0" x2="180" y2="190"/><line x1="225" y1="0" x2="225" y2="190"/><line x1="270" y1="0" x2="270" y2="190"/><line x1="315" y1="0" x2="315" y2="190"/><line x1="360" y1="0" x2="360" y2="190"/><line x1="405" y1="0" x2="405" y2="190"/><line x1="450" y1="0" x2="450" y2="190"/><line x1="495" y1="0" x2="495" y2="190"/><line x1="540" y1="0" x2="540" y2="190"/><line x1="585" y1="0" x2="585" y2="190"/><line x1="630" y1="0" x2="630" y2="190"/><line x1="675" y1="0" x2="675" y2="190"/><line x1="720" y1="0" x2="720" y2="190"/><line x1="765" y1="0" x2="765" y2="190"/><line x1="810" y1="0" x2="810" y2="190"/><line x1="855" y1="0" x2="855" y2="190"/><line x1="900" y1="0" x2="900" y2="190"/><line x1="0" y1="0" x2="900" y2="0"/><line x1="0" y1="45" x2="900" y2="45"/><line x1="0" y1="90" x2="900" y2="90"/><line x1="0" y1="135" x2="900" y2="135"/><line x1="0" y1="180" x2="900" y2="180"/></g>
+<text x="20" y="28" font-size="11" letter-spacing="3" fill="#6e7681">COMMIT SIGNAL · LAST 60 DAYS</text>
+<g filter="url(#g)" class="beat">
+<path d="M20 120 H140 l18 0 12 -12 14 68 18 -108 16 52 H300 l16 0 12 -16 12 54 16 -82 14 44 H470 l16 0 14 -18 14 62 16 -94 16 50 H640 l18 0 12 -14 14 60 16 -88 16 42 H880"
+ fill="none" stroke="#00ff9c" stroke-width="2.5" class="ecg"/></g>
+<circle cx="880" cy="120" r="5" fill="#00ff9c" class="blink"/>
+<text x="20" y="172" font-size="11" fill="#00e5ff">SIGNAL: LIVE</text>
+<text x="880" y="172" text-anchor="end" font-size="11" fill="#6e7681">REFRESHED DAILY</text></svg>
