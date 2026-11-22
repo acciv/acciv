@@ -29,19 +29,21 @@
   <img src="assets/languages.svg" alt="Languages"/>
 </p>
 
-<p align="center">
-  <img src="assets/projects.svg" alt="Projects"/>
-</p>
-
 <h3 align="center"><code>[ PROJECTS ]</code></h3>
 
 <p align="center">
-  <a href="https://github.com/acciv/keylens"><img src="https://img.shields.io/badge/keylens-keys%20scanner-0D1117?style=for-the-badge&amp;logo=python&amp;logoColor=7AA2F7" alt="keylens"/></a>
-  <a href="https://github.com/acciv/apixray"><img src="https://img.shields.io/badge/apixray-structure%20inspector-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=BB9AF7" alt="apixray"/></a>
-  <a href="https://github.com/acciv/keygate"><img src="https://img.shields.io/badge/keygate-api%20gateway-0D1117?style=for-the-badge&amp;logo=go&amp;logoColor=7DCFFF" alt="keygate"/></a>
-  <a href="https://github.com/acciv/apishadow"><img src="https://img.shields.io/badge/apishadow-traffic%20diff-0D1117?style=for-the-badge&amp;logo=go&amp;logoColor=7DCFFF" alt="apishadow"/></a>
-  <a href="https://github.com/acciv/schema-registry"><img src="https://img.shields.io/badge/schema--registry-versioning-0D1117?style=for-the-badge&amp;logo=go&amp;logoColor=7AA2F7" alt="schema-registry"/></a>
-  <a href="https://github.com/acciv/apifuzz"><img src="https://img.shields.io/badge/apifuzz-openapi%20tests-0D1117?style=for-the-badge&amp;logo=rust&amp;logoColor=E0AF68" alt="apifuzz"/></a>
+  <a href="https://github.com/acciv/keylens"><img src="assets/card-keylens.svg" width="49%" alt="keylens — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apixray"><img src="assets/card-apixray.svg" width="49%" alt="apixray — открыть репозиторий"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/acciv/keygate"><img src="assets/card-keygate.svg" width="49%" alt="keygate — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apishadow"><img src="assets/card-apishadow.svg" width="49%" alt="apishadow — открыть репозиторий"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/acciv/schema-registry"><img src="assets/card-schema-registry.svg" width="49%" alt="schema-registry — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apifuzz"><img src="assets/card-apifuzz.svg" width="49%" alt="apifuzz — открыть репозиторий"/></a>
 </p>
 
 <h3 align="center"><code>[ ARSENAL ]</code></h3>
@@ -74,5 +76,5 @@
 </p>
 
 <p align="center">
-  <img src="assets/footer.svg" alt="contact"/>
+  <a href="mailto:jumpscout@proton.me"><img src="assets/footer.svg" alt="contact — написать на почту"/></a>
 </p>

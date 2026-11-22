@@ -230,8 +230,8 @@ def languages() -> None:
     save("languages.svg", shell(w, h, inner, MONO))
 
 
-def projects() -> None:
-    w, h = 854, 610
+def project_cards() -> None:
+    w, h = 400, 164
     names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz"]
     counts = STATS.get("commits_by_repo", {})
     descs = [
@@ -250,23 +250,19 @@ def projects() -> None:
         "GO · RUST · PY",
         "RUST · GO · PY",
     ]
-    rows = []
     for i, name in enumerate(names):
-        x = 20 + (i % 2) * 414
-        y = 48 + (i // 2) * 180
         color = GREEN if i % 2 == 0 else CYAN
-        rows.append(
-            f'<rect x="{x}" y="{y}" width="400" height="164" rx="10" fill="{PANEL}" stroke="{GRID}"/>'
-            f'<rect x="{x}" y="{y}" width="4" height="164" rx="2" fill="{color}"/>'
-            f'<text x="{x + 20}" y="{y + 36}" font-size="19" font-weight="700" fill="{TEXT}">{name}</text>'
-            f'<text x="{x + 20}" y="{y + 62}" font-size="12" fill="{MUTED}">{descs[i]}</text>'
-            f'<text x="{x + 20}" y="{y + 98}" font-size="10" fill="{color}" letter-spacing="1">{tags[i]}</text>'
-            f'<text x="{x + 20}" y="{y + 136}" font-size="10" fill="{MUTED}">COMMITS: {counts.get(name, 0)}</text>'
-            f'<text x="{x + 378}" y="{y + 136}" text-anchor="end" font-size="10" fill="{GREEN}">OPEN <tspan class="k">→</tspan></text>'
-            f'<rect x="{x}" y="{y}" width="400" height="2" fill="{color}" opacity=".0" class="f"/>'
+        inner = (
+            f'<rect x="1" y="1" width="398" height="162" rx="10" fill="{PANEL}" stroke="{GRID}"/>'
+            f'<rect x="1" y="1" width="4" height="162" rx="2" fill="{color}"/>'
+            f'<text x="22" y="38" font-size="19" font-weight="700" fill="{TEXT}">{name}</text>'
+            f'<text x="22" y="64" font-size="12" fill="{MUTED}">{descs[i]}</text>'
+            f'<text x="22" y="100" font-size="10" fill="{color}" letter-spacing="1">{tags[i]}</text>'
+            f'<text x="22" y="138" font-size="10" fill="{MUTED}">COMMITS: {counts.get(name, 0)}</text>'
+            f'<text x="378" y="138" text-anchor="end" font-size="10" fill="{GREEN}">OPEN <tspan class="k">→</tspan></text>'
+            f'<rect x="1" y="1" width="398" height="2" fill="{color}" opacity=".0" class="f"/>'
         )
-    inner = heading("[ PROJECTS ]", GREEN) + "".join(rows)
-    save("projects.svg", shell(w, h, inner, MONO))
+        save(f"card-{name}.svg", shell(w, h, inner, MONO))
 
 
 if __name__ == "__main__":
@@ -278,5 +274,5 @@ if __name__ == "__main__":
     stack()
     stats()
     languages()
-    projects()
+    project_cards()
     footer()
