@@ -239,7 +239,7 @@ def languages() -> None:
 
 def project_cards() -> None:
     w, h = 400, 164
-    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz"]
+    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph"]
     counts = STATS.get("commits_by_repo", {})
     descs = [
         "поиск утекших ключей в файлах",
@@ -248,6 +248,7 @@ def project_cards() -> None:
         "зеркало API-трафика и поиск расхождений",
         "версии API-схем и проверка совместимости",
         "запросы из OpenAPI и проверка контракта",
+        "граф ключей, радиус поломки и ротация",
     ]
     tags = [
         "PY · RUST · C++",
@@ -255,6 +256,7 @@ def project_cards() -> None:
         "GO · RUST · SDK",
         "GO · RUST · PY",
         "GO · RUST · PY",
+        "RUST · GO · PY",
         "RUST · GO · PY",
     ]
     for i, name in enumerate(names):

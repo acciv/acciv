@@ -1,16 +1,16 @@
 {
-  "followers": 0,
-  "public_repos": 7,
+  "followers": 1,
+  "public_repos": 8,
   "stars": 0,
-  "commits": 163,
+  "commits": 169,
   "repos": {
     "acciv": {
       "stars": 0,
-      "size": 53
+      "size": 56
     },
     "keylens": {
       "stars": 0,
-      "size": 0
+      "size": 30
     },
     "apixray": {
       "stars": 0,
@@ -26,9 +26,13 @@
     },
     "schema-registry": {
       "stars": 0,
-      "size": 0
+      "size": 22
     },
     "apifuzz": {
+      "stars": 0,
+      "size": 19
+    },
+    "keygraph": {
       "stars": 0,
       "size": 0
     }
@@ -36,15 +40,15 @@
   "languages": [
     [
       "Rust",
-      106668
+      136827
     ],
     [
       "Python",
-      68824
+      83307
     ],
     [
       "Go",
-      68134
+      81325
     ],
     [
       "C++",
@@ -52,11 +56,15 @@
     ],
     [
       "Dockerfile",
-      4095
+      4612
     ],
     [
       "Makefile",
-      3498
+      3856
+    ],
+    [
+      "C",
+      3260
     ],
     [
       "Java",
@@ -65,10 +73,6 @@
     [
       "PHP",
       2283
-    ],
-    [
-      "C",
-      1498
     ]
   ],
   "activity": [
@@ -155,17 +159,18 @@
     0,
     0,
     0,
-    163
+    169
   ],
-  "activity_total": 163,
-  "generated": "2026-11-22T15:28:21.868291+00:00",
+  "activity_total": 169,
+  "generated": "2026-11-22T16:44:03.130557+00:00",
   "commits_by_repo": {
-    "acciv": 65,
+    "acciv": 70,
     "keylens": 13,
     "apixray": 23,
     "keygate": 30,
     "apishadow": 30,
     "schema-registry": 1,
-    "apifuzz": 1
+    "apifuzz": 1,
+    "keygraph": 1
   }
 }
