@@ -33,10 +33,6 @@
   <img src="assets/projects.svg" alt="Projects"/>
 </p>
 
-<p align="center">
-  <img src="assets/activity.svg" alt="Contribution graph"/>
-</p>
-
 <h3 align="center"><code>[ PROJECTS ]</code></h3>
 
 <p align="center">

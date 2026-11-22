@@ -269,41 +269,6 @@ def projects() -> None:
     save("projects.svg", shell(w, h, inner, MONO))
 
 
-def activity() -> None:
-    w, h = 854, 200
-    grid = STATS["activity"]
-    weeks = (len(grid) + 6) // 7
-    cells = []
-    for i, value in enumerate(grid):
-        col, row = divmod(i, 7)
-        x, y = 32 + col * 15, 54 + row * 15
-        if value == 0:
-            color, op = GRID, ".8"
-        elif value < 3:
-            color, op = GREEN, ".45"
-        elif value < 10:
-            color, op = GREEN, ".75"
-        else:
-            color, op = CYAN, ".9"
-        begin = (i % 21) * 0.05
-        cells.append(
-            f'<rect x="{x}" y="{y}" width="11" height="11" rx="2" fill="{color}" opacity="0">'
-            f'<set attributeName="opacity" to="{op}" begin="{begin:.2f}s" fill="freeze"/></rect>'
-        )
-    inner = heading("[ CONTRIBUTION GRAPH ]", BLUE)
-    inner += f'<text x="822" y="30" text-anchor="end" font-size="10" fill="{MUTED}" font-family="{MONO}">84 DAYS</text>'
-    inner += "".join(cells)
-    inner += (
-        f'<text x="32" y="176" font-size="10" fill="{MUTED}" font-family="{MONO}">LESS</text>'
-        + "".join(
-            f'<rect x="{70 + j * 18}" y="166" width="11" height="11" rx="2" fill="{c}" opacity="{o}"/>'
-            for j, (c, o) in enumerate([(GRID, ".8"), (GREEN, ".45"), (GREEN, ".75"), (CYAN, ".9")])
-        )
-        + f'<text x="150" y="176" font-size="10" fill="{MUTED}" font-family="{MONO}">MORE</text>'
-    )
-    save("activity.svg", shell(w, h, inner, MONO))
-
-
 if __name__ == "__main__":
     print("assets:")
     header()
@@ -314,5 +279,4 @@ if __name__ == "__main__":
     stats()
     languages()
     projects()
-    activity()
     footer()
