@@ -25,6 +25,8 @@
   <a href="https://www.python.org/"><img src="assets/stack-python-v2.svg" width="82" alt="Python"/></a>
   <a href="https://isocpp.org/"><img src="assets/stack-cpp-v2.svg" width="82" alt="C++"/></a>
   <a href="https://www.java.com/"><img src="assets/stack-java-v2.svg" width="82" alt="Java"/></a>
+  <a href="https://www.typescriptlang.org/"><img src="assets/stack-typescript-v2.svg" width="82" alt="TypeScript"/></a>
+  <a href="https://core.telegram.org/bots/api"><img src="assets/stack-telegram-v2.svg" width="82" alt="Telegram Bot API"/></a>
   <a href="https://www.php.net/"><img src="assets/stack-php-v2.svg" width="82" alt="PHP"/></a>
   <a href="https://en.wikipedia.org/wiki/C_ABI"><img src="assets/stack-cabi-v2.svg" width="82" alt="C ABI"/></a>
   <a href="https://www.openapis.org/"><img src="assets/stack-openapi-v2.svg" width="82" alt="OpenAPI"/></a>
@@ -59,6 +61,10 @@
 <p align="center">
   <a href="https://github.com/acciv/keygraph"><img src="assets/card-keygraph-v2.svg" width="49%" alt="keygraph — открыть репозиторий"/></a>
   <a href="https://github.com/acciv/apicanon"><img src="assets/card-apicanon-v2.svg" width="49%" alt="apicanon — открыть репозиторий"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/acciv/tgbotscope"><img src="assets/card-tgbotscope-v2.svg" width="49%" alt="tgbotscope — открыть репозиторий"/></a>
 </p>
 
 <h3 align="center"><code>[ ARSENAL ]</code></h3>
