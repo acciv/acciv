@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" xml:space="preserve"><defs><style>.blink{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+.dash{stroke-dasharray:8 10;animation:d 3s linear infinite}@keyframes d{to{stroke-dashoffset:-36}}</style></defs>
+<rect width="900" height="140" rx="10" fill="#0b0f17" stroke="#16202e"/>
+<line x1="40" y1="70" x2="330" y2="70" stroke="#00ff9c" stroke-opacity=".5" class="dash"/>
+<line x1="570" y1="70" x2="860" y2="70" stroke="#00ff9c" stroke-opacity=".5" class="dash"/>
+<text x="450" y="62" text-anchor="middle" font-size="15" letter-spacing="5" fill="#e9edf2">ACCIV</text>
+<text x="450" y="88" text-anchor="middle" font-size="10" letter-spacing="3" fill="#ff0055">CONNECTION TERMINATED <tspan class="blink">█</tspan></text>
+<text x="450" y="120" text-anchor="middle" font-size="10" fill="#6e7681">jumpscout@proton.me · Krasnodar</text></svg>
