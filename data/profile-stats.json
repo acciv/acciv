@@ -1,0 +1,187 @@
+{
+  "followers": 0,
+  "public_repos": 7,
+  "stars": 0,
+  "commits": 191,
+  "repos": {
+    "acciv": {
+      "stars": 0,
+      "size": 53
+    },
+    "keylens": {
+      "stars": 0,
+      "size": 0
+    },
+    "apixray": {
+      "stars": 0,
+      "size": 31
+    },
+    "keygate": {
+      "stars": 0,
+      "size": 26
+    },
+    "apishadow": {
+      "stars": 0,
+      "size": 29
+    },
+    "schema-registry": {
+      "stars": 0,
+      "size": 0
+    },
+    "apifuzz": {
+      "stars": 0,
+      "size": 0
+    }
+  },
+  "languages": [
+    [
+      "Rust",
+      106668
+    ],
+    [
+      "Python",
+      71147
+    ],
+    [
+      "Go",
+      68134
+    ],
+    [
+      "C++",
+      22815
+    ],
+    [
+      "Dockerfile",
+      6017
+    ],
+    [
+      "YAML",
+      4341
+    ],
+    [
+      "Makefile",
+      3498
+    ],
+    [
+      "Java",
+      2583
+    ],
+    [
+      "Shell",
+      2401
+    ],
+    [
+      "PHP",
+      2283
+    ],
+    [
+      "JSON",
+      1629
+    ],
+    [
+      "C",
+      1498
+    ],
+    [
+      "TOML",
+      1047
+    ]
+  ],
+  "activity": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    191
+  ],
+  "activity_total": 191,
+  "generated": "2026-11-22T15:18:56.817056Z",
+  "commits_by_repo": {
+    "acciv": 37,
+    "keylens": 13,
+    "apixray": 23,
+    "keygate": 30,
+    "apishadow": 30,
+    "schema-registry": 32,
+    "apifuzz": 26
+  }
+}
