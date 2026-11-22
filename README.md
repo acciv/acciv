@@ -20,15 +20,15 @@
 <h3 align="center"><code>[ STACK ]</code></h3>
 
 <p align="center">
-  <a href="https://www.rust-lang.org/"><img src="assets/stack-rust.svg" width="82" alt="Rust"/></a>
-  <a href="https://go.dev/"><img src="assets/stack-go.svg" width="82" alt="Go"/></a>
-  <a href="https://www.python.org/"><img src="assets/stack-python.svg" width="82" alt="Python"/></a>
-  <a href="https://isocpp.org/"><img src="assets/stack-cpp.svg" width="82" alt="C++"/></a>
-  <a href="https://www.java.com/"><img src="assets/stack-java.svg" width="82" alt="Java"/></a>
-  <a href="https://www.php.net/"><img src="assets/stack-php.svg" width="82" alt="PHP"/></a>
-  <a href="https://en.wikipedia.org/wiki/C_ABI"><img src="assets/stack-cabi.svg" width="82" alt="C ABI"/></a>
-  <a href="https://www.openapis.org/"><img src="assets/stack-openapi.svg" width="82" alt="OpenAPI"/></a>
-  <a href="https://www.docker.com/"><img src="assets/stack-docker.svg" width="82" alt="Docker"/></a>
+  <a href="https://www.rust-lang.org/"><img src="assets/stack-rust-v2.svg" width="82" alt="Rust"/></a>
+  <a href="https://go.dev/"><img src="assets/stack-go-v2.svg" width="82" alt="Go"/></a>
+  <a href="https://www.python.org/"><img src="assets/stack-python-v2.svg" width="82" alt="Python"/></a>
+  <a href="https://isocpp.org/"><img src="assets/stack-cpp-v2.svg" width="82" alt="C++"/></a>
+  <a href="https://www.java.com/"><img src="assets/stack-java-v2.svg" width="82" alt="Java"/></a>
+  <a href="https://www.php.net/"><img src="assets/stack-php-v2.svg" width="82" alt="PHP"/></a>
+  <a href="https://en.wikipedia.org/wiki/C_ABI"><img src="assets/stack-cabi-v2.svg" width="82" alt="C ABI"/></a>
+  <a href="https://www.openapis.org/"><img src="assets/stack-openapi-v2.svg" width="82" alt="OpenAPI"/></a>
+  <a href="https://www.docker.com/"><img src="assets/stack-docker-v2.svg" width="82" alt="Docker"/></a>
 </p>
 
 <p align="center">
@@ -42,18 +42,18 @@
 <h3 align="center"><code>[ PROJECTS ]</code></h3>
 
 <p align="center">
-  <a href="https://github.com/acciv/keylens"><img src="assets/card-keylens.svg" width="49%" alt="keylens — открыть репозиторий"/></a>
-  <a href="https://github.com/acciv/apixray"><img src="assets/card-apixray.svg" width="49%" alt="apixray — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/keylens"><img src="assets/card-keylens-v2.svg" width="49%" alt="keylens — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apixray"><img src="assets/card-apixray-v2.svg" width="49%" alt="apixray — открыть репозиторий"/></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/acciv/keygate"><img src="assets/card-keygate.svg" width="49%" alt="keygate — открыть репозиторий"/></a>
-  <a href="https://github.com/acciv/apishadow"><img src="assets/card-apishadow.svg" width="49%" alt="apishadow — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/keygate"><img src="assets/card-keygate-v2.svg" width="49%" alt="keygate — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apishadow"><img src="assets/card-apishadow-v2.svg" width="49%" alt="apishadow — открыть репозиторий"/></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/acciv/schema-registry"><img src="assets/card-schema-registry.svg" width="49%" alt="schema-registry — открыть репозиторий"/></a>
-  <a href="https://github.com/acciv/apifuzz"><img src="assets/card-apifuzz.svg" width="49%" alt="apifuzz — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/schema-registry"><img src="assets/card-schema-registry-v2.svg" width="49%" alt="schema-registry — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apifuzz"><img src="assets/card-apifuzz-v2.svg" width="49%" alt="apifuzz — открыть репозиторий"/></a>
 </p>
 
 <h3 align="center"><code>[ ARSENAL ]</code></h3>

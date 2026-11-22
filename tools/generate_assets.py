@@ -51,11 +51,12 @@ def save(name: str, body: str) -> None:
     print(f"  + {name}")
 
 
-def shell(w: int, h: int, inner: str, font: str = FONT) -> str:
+def shell(w: int, h: int, inner: str, font: str = FONT, bg: bool = True) -> str:
+    background = f'<rect width="{w}" height="{h}" fill="{BG}"/>' if bg else ""
     return (
         HEAD.format(w=w, h=h, font=font)
         + STYLE
-        + f'<rect width="{w}" height="{h}" fill="{BG}"/>'
+        + background
         + inner
         + "</svg>"
     )
@@ -172,7 +173,7 @@ def stack_buttons() -> None:
             f'<text x="71" y="55" text-anchor="end" font-size="9" fill="{MUTED}">↗</text>'
             f'<rect x="1" y="1" width="80" height="2" fill="{color}" opacity=".0" class="f"/>'
         )
-        save(f"stack-{slug}.svg", shell(w, h, inner, MONO))
+        save(f"stack-{slug}-v2.svg", shell(w, h, inner, MONO, bg=False))
 
 
 def footer() -> None:
@@ -268,7 +269,7 @@ def project_cards() -> None:
             f'<text x="378" y="138" text-anchor="end" font-size="10" fill="{GREEN}">OPEN <tspan class="k">→</tspan></text>'
             f'<rect x="1" y="1" width="398" height="2" fill="{color}" opacity=".0" class="f"/>'
         )
-        save(f"card-{name}.svg", shell(w, h, inner, MONO))
+        save(f"card-{name}-v2.svg", shell(w, h, inner, MONO, bg=False))
 
 
 if __name__ == "__main__":
