@@ -20,6 +20,7 @@
 - 🐘 PHP for pragmatic web integration and glue code.
 - ⚙️ C++ / Java / Python depending on the task — low-level control, enterprise integrations, automation.
 - 🌱 Always learning better ways to make key management simple and secure.
+- 🚀 First project: **[keylens](https://github.com/acciv/keylens)** — CLI-сканер утекших ключей и токенов.
 - 📍 Based in Krasnodar, Russia.
 
 ## 🛠️ Stack & Tools
