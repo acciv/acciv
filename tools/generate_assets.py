@@ -151,22 +151,28 @@ def about_narrow() -> None:
     save("about-narrow.svg", shell(w, h, inner))
 
 
-def stack() -> None:
-    w, h = 854, 120
-    items = ["Rust", "Go", "Python", "C ++", "Java", "PHP", "C ABI", "OpenAPI", "Docker"]
-    cells = []
-    for i, label in enumerate(items):
-        x = 20 + i * 92
-        cells.append(
-            f'<rect x="{x}" y="28" width="82" height="64" rx="8" fill="{PANEL2}" stroke="{GRID}"/>'
-            f'<text x="{x + 41}" y="66" text-anchor="middle" font-size="12" '
-            f'fill="{GREEN if i % 2 == 0 else CYAN}">{label}</text>'
+def stack_buttons() -> None:
+    w, h = 82, 64
+    items = [
+        ("rust", "Rust", GREEN),
+        ("go", "Go", CYAN),
+        ("python", "Python", GREEN),
+        ("cpp", "C ++", CYAN),
+        ("java", "Java", GREEN),
+        ("php", "PHP", CYAN),
+        ("cabi", "C ABI", GREEN),
+        ("openapi", "OpenAPI", CYAN),
+        ("docker", "Docker", GREEN),
+    ]
+    for slug, label, color in items:
+        inner = (
+            f'<rect x="1" y="1" width="80" height="62" rx="8" fill="{PANEL2}" stroke="{GRID}"/>'
+            f'<rect x="1" y="1" width="3" height="62" rx="1.5" fill="{color}"/>'
+            f'<text x="43" y="37" text-anchor="middle" font-size="12" fill="{color}">{label}</text>'
+            f'<text x="71" y="55" text-anchor="end" font-size="9" fill="{MUTED}">↗</text>'
+            f'<rect x="1" y="1" width="80" height="2" fill="{color}" opacity=".0" class="f"/>'
         )
-    inner = f"""
-<text x="20" y="20" font-size="10" fill="{MUTED}" letter-spacing="3">STACK</text>
-{''.join(cells)}
-"""
-    save("stack.svg", shell(w, h, inner, MONO))
+        save(f"stack-{slug}.svg", shell(w, h, inner, MONO))
 
 
 def footer() -> None:
@@ -271,7 +277,7 @@ if __name__ == "__main__":
     typing()
     about()
     about_narrow()
-    stack()
+    stack_buttons()
     stats()
     languages()
     project_cards()

@@ -17,8 +17,18 @@
   <img src="assets/about-narrow.svg" alt="About acciv — details"/>
 </p>
 
+<h3 align="center"><code>[ STACK ]</code></h3>
+
 <p align="center">
-  <img src="assets/stack.svg" alt="Stack"/>
+  <a href="https://www.rust-lang.org/"><img src="assets/stack-rust.svg" width="82" alt="Rust"/></a>
+  <a href="https://go.dev/"><img src="assets/stack-go.svg" width="82" alt="Go"/></a>
+  <a href="https://www.python.org/"><img src="assets/stack-python.svg" width="82" alt="Python"/></a>
+  <a href="https://isocpp.org/"><img src="assets/stack-cpp.svg" width="82" alt="C++"/></a>
+  <a href="https://www.java.com/"><img src="assets/stack-java.svg" width="82" alt="Java"/></a>
+  <a href="https://www.php.net/"><img src="assets/stack-php.svg" width="82" alt="PHP"/></a>
+  <a href="https://en.wikipedia.org/wiki/C_ABI"><img src="assets/stack-cabi.svg" width="82" alt="C ABI"/></a>
+  <a href="https://www.openapis.org/"><img src="assets/stack-openapi.svg" width="82" alt="OpenAPI"/></a>
+  <a href="https://www.docker.com/"><img src="assets/stack-docker.svg" width="82" alt="Docker"/></a>
 </p>
 
 <p align="center">
