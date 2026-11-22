@@ -2,7 +2,7 @@
   "followers": 0,
   "public_repos": 7,
   "stars": 0,
-  "commits": 191,
+  "commits": 163,
   "repos": {
     "acciv": {
       "stars": 0,
@@ -40,7 +40,7 @@
     ],
     [
       "Python",
-      71147
+      68824
     ],
     [
       "Go",
@@ -52,11 +52,7 @@
     ],
     [
       "Dockerfile",
-      6017
-    ],
-    [
-      "YAML",
-      4341
+      4095
     ],
     [
       "Makefile",
@@ -67,24 +63,12 @@
       2583
     ],
     [
-      "Shell",
-      2401
-    ],
-    [
       "PHP",
       2283
     ],
     [
-      "JSON",
-      1629
-    ],
-    [
       "C",
       1498
-    ],
-    [
-      "TOML",
-      1047
     ]
   ],
   "activity": [
@@ -171,17 +155,17 @@
     0,
     0,
     0,
-    191
+    163
   ],
-  "activity_total": 191,
-  "generated": "2026-11-22T15:18:56.817056Z",
+  "activity_total": 163,
+  "generated": "2026-11-22T15:28:21.868291+00:00",
   "commits_by_repo": {
-    "acciv": 37,
+    "acciv": 65,
     "keylens": 13,
     "apixray": 23,
     "keygate": 30,
     "apishadow": 30,
-    "schema-registry": 32,
-    "apifuzz": 26
+    "schema-registry": 1,
+    "apifuzz": 1
   }
 }
