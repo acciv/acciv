@@ -241,7 +241,7 @@ def languages() -> None:
 
 def project_cards() -> None:
     w, h = 400, 164
-    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph", "apicanon", "tgbotscope", "tgkeyhunt", "tgsecaudit"]
+    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph", "apicanon", "tgbotscope", "tgkeyhunt", "tgsecaudit", "dsrlab"]
     counts = STATS.get("commits_by_repo", {})
     descs = [
         "поиск утекших ключей в файлах",
@@ -255,6 +255,7 @@ def project_cards() -> None:
         "каталог Telegram Bot API и связи типов",
         "поиск утекших токенов Telegram",
         "аудит утечек Telegram API credentials",
+        "исследование безопасности Discord API",
     ]
     tags = [
         "PY · RUST · C++",
@@ -266,6 +267,7 @@ def project_cards() -> None:
         "RUST · GO · PY",
         "JAVA · JDK 17 · CLI",
         "TS · GO · PY",
+        "RUST · GO · PY",
         "RUST · GO · PY",
         "RUST · GO · PY",
     ]

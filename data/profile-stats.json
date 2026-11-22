@@ -1,12 +1,12 @@
 {
-  "followers": 1,
-  "public_repos": 12,
+  "followers": 2,
+  "public_repos": 13,
   "stars": 0,
-  "commits": 178,
+  "commits": 180,
   "repos": {
     "acciv": {
       "stars": 0,
-      "size": 56
+      "size": 73
     },
     "keylens": {
       "stars": 0,
@@ -51,20 +51,24 @@
     "tgsecaudit": {
       "stars": 0,
       "size": 0
+    },
+    "dsrlab": {
+      "stars": 0,
+      "size": 0
     }
   },
   "languages": [
     [
       "Rust",
-      205196
+      293138
     ],
     [
       "Python",
-      172431
+      259656
     ],
     [
       "Go",
-      137595
+      187351
     ],
     [
       "Java",
@@ -80,11 +84,11 @@
     ],
     [
       "Dockerfile",
-      6492
+      7315
     ],
     [
       "Makefile",
-      5492
+      7054
     ],
     [
       "C",
@@ -179,12 +183,12 @@
     0,
     0,
     0,
-    178
+    180
   ],
-  "activity_total": 178,
-  "generated": "2026-11-22T17:19:06.303938+00:00",
+  "activity_total": 180,
+  "generated": "2026-11-22T17:35:18.893837+00:00",
   "commits_by_repo": {
-    "acciv": 74,
+    "acciv": 75,
     "keylens": 13,
     "apixray": 23,
     "keygate": 30,
@@ -195,6 +199,7 @@
     "apicanon": 1,
     "tgbotscope": 1,
     "tgkeyhunt": 2,
-    "tgsecaudit": 1
+    "tgsecaudit": 1,
+    "dsrlab": 1
   }
 }
