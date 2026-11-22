@@ -1,67 +1,76 @@
-<div align="center">
-  <img src="assets/banner.svg" alt="acciv — API keys, auth, security" width="100%" />
-</div>
+<!--
+  Визуал профиля сделан руками: анимированные SVG в assets/, без JS и шаблонов.
+  Генератор: tools/generate_assets.py
+-->
 
-<div align="center">
-  <a href="https://github.com/acciv">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1200&color=65D067&center=true&vCenter=true&width=640&lines=Hi%2C+I%27m+acciv;API+keys+%26+security;Go+%2B+PHP+%2B+C%2B%2B;Python+%2B+Java;Krasnodar%2C+Russia" alt="Hi, I'm acciv" />
-  </a>
-</div>
+<p align="center">
+  <img src="assets/intro.svg" width="100%" alt="acciv — API keys, auth, security. Rust, Go, Python, C++, Java, PHP. Access granted"/>
+</p>
 
-<div align="center">
-  <a href="https://github.com/acciv"><img src="https://img.shields.io/badge/GitHub-253916?style=for-the-badge&logo=github&logoColor=F2F6F0&labelColor=65D067" alt="GitHub" /></a>
-  <a href="mailto:jumpscout@proton.me"><img src="https://img.shields.io/badge/Email-253916?style=for-the-badge&logo=gmail&logoColor=F2F6F0&labelColor=65D067" alt="Email" /></a>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/github/followers/acciv?style=flat-square&logo=github&color=00ff9c&labelColor=0b0f17&label=FOLLOWERS" alt="followers"/>
+  <img src="https://img.shields.io/badge/THREAT_LEVEL-LOW-00ff9c?style=flat-square&labelColor=0b0f17" alt="threat level"/>
+  <img src="https://img.shields.io/badge/MODE-KEYGATE-00e5ff?style=flat-square&labelColor=0b0f17" alt="mode"/>
+</p>
 
-## 🧭 About Me
+<br/>
 
-- 🔐 API keys are my thing — issuance, rotation, access control and keeping them out of public repos.
-- 🐹 Writing Go for fast, boring-in-production services and middleware.
-- 🐘 PHP for pragmatic web integration and glue code.
-- ⚙️ C++ / Java / Python depending on the task — low-level control, enterprise integrations, automation.
-- 🌱 Always learning better ways to make key management simple and secure.
-- 🚀 Projects: **[keylens](https://github.com/acciv/keylens)** — сканер утечек; **[apixray](https://github.com/acciv/apixray)** — рентген ключей; **[keygate](https://github.com/acciv/keygate)** — gateway для ключей на Go + Rust с SDK.
-- 📍 Based in Krasnodar, Russia.
+<p align="center">
+  <img src="assets/terminal.svg" width="100%" alt="acciv@keygate — терминал со списком проектов и статусом шлюза"/>
+</p>
 
-## 🛠️ Stack & Tools
+<p align="center">
+  <img src="assets/heartbeat.svg" width="100%" alt="signal коммитов за последние 60 дней"/>
+</p>
 
-<div align="center">
+<br/>
 
-<a href="https://go.dev/" title="Go"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" alt="Go" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://www.php.net/" title="PHP"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://isocpp.org/" title="C++"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://www.python.org/" title="Python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://www.java.com/" title="Java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://git-scm.com/" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://www.linux.org/" title="Linux"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://www.docker.com/" title="Docker"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://cdn.simpleicons.org/githubactions/C9EA63" alt="GitHub Actions" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://neovim.io/" title="Neovim"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" alt="Neovim" width="46" height="46" /></a>&nbsp;&nbsp;
-<a href="https://code.visualstudio.com/" title="VS Code"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" width="46" height="46" /></a>
+<h3 align="center"><code>[ KEY DISSECTION ]</code></h3>
 
-</div>
+<p align="center">
+  <img src="assets/lab.svg" width="100%" alt="разбор ключа: сегменты, энтропия, JWT без проверки подписи, risk score"/>
+</p>
 
-## ⚡️ Stats
+<br/>
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=acciv&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&bg_color=253916&title_color=C9EA63&text_color=F2F6F0&icon_color=65D067" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acciv&layout=compact&langs_count=8&hide_border=true&bg_color=253916&title_color=C9EA63&text_color=F2F6F0" alt="Top languages" />
-</div>
+<h3 align="center"><code>[ OBSESSIONS ]</code></h3>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=acciv&hide_border=true&background=253916&border=65D067&stroke=65D067&ring=C9EA63&fire=C9EA63&currStreakNum=F2F6F0&sideNums=F2F6F0&currStreakLabel=65D067&sideLabels=65D067&dates=8FA97F" alt="GitHub streak" />
-</div>
+<p align="center">
+  <img src="assets/orbit.svg" width="100%" alt="интересы вокруг acciv: API-ключи, JWT, реверс, безопасность, Rust, Go, Python, C++, Telegram, Docker, CI"/>
+</p>
 
-## 📈 Contributions Graph
+<h3 align="center"><code>[ CASE FILES ]</code></h3>
 
-<div align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=acciv&bg_color=253916&color=65D067&line=C9EA63&point=F2F6F0&title_color=C9EA63&hide_border=true&area=true&custom_title=Commit%20Activity" alt="Contribution graph" width="100%" />
-  </a>
-</div>
+<p align="center">
+  <a href="https://github.com/acciv/keylens"><img src="assets/case-keylens.svg" width="49%" alt="keylens — сканер утекших ключей в файлах"/></a>
+  <a href="https://github.com/acciv/apixray"><img src="assets/case-apixray.svg" width="49%" alt="apixray — рентген ключей и JWT на Rust с биндингами"/></a>
+  <a href="https://github.com/acciv/keygate"><img src="assets/case-keygate.svg" width="49%" alt="keygate — gateway для ключей на Go и Rust с аудитом"/></a>
+</p>
 
-<div align="center">
-  <a href="#top"><img src="https://img.shields.io/badge/Back_to_Top-253916?style=for-the-badge&logo=github&logoColor=F2F6F0&labelColor=65D067" alt="Back to top" /></a>
-  <br /><br />
-  <img src="https://komarev.com/ghpvc/?username=acciv&label=visitors&color=65D067&labelColor=253916&style=for-the-badge" alt="Visitor count" />
-</div>
+<h3 align="center"><code>[ BODY COUNT ]</code></h3>
+
+<p align="center">
+  <img src="assets/bodycount.svg" width="100%" alt="3 проекта, 7 языков, CI зелёный, ключи не утекли"/>
+  <br/>
+  <img src="assets/infection.svg" width="100%" alt="сетка коммитов: скан проходит по полю и очищает его"/>
+</p>
+
+<h3 align="center"><code>[ ARSENAL ]</code></h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,go,python,cpp,java,php,bash,git&theme=dark&perline=8" alt="Rust, Go, Python, C++, Java, PHP, Bash, Git"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=docker,linux,githubactions&theme=dark" alt="Docker, Linux, GitHub Actions"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%20ABI-0b0f17?style=for-the-badge&logo=c&logoColor=00e5ff" alt="C ABI"/>
+  <img src="https://img.shields.io/badge/FFI-0b0f17?style=for-the-badge&logo=rust&logoColor=00ff9c" alt="FFI"/>
+  <img src="https://img.shields.io/badge/JWT-0b0f17?style=for-the-badge&logo=jsonwebtokens&logoColor=ffd166" alt="JWT"/>
+  <img src="https://img.shields.io/badge/Telegram_Bot_API-0b0f17?style=for-the-badge&logo=telegram&logoColor=00e5ff" alt="Telegram Bot API"/>
+  <img src="https://img.shields.io/badge/OpenAPI-0b0f17?style=for-the-badge&logo=openapiinitiative&logoColor=00ff9c" alt="OpenAPI"/>
+</p>
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="connection terminated"/>
+</p>
