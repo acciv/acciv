@@ -101,7 +101,7 @@ def terminal() -> None:
         ("acciv@keygate:~$ whoami", TEXT, 0.4),
         ("acciv — API keys, auth, security", GREEN, 1.1),
         ("acciv@keygate:~$ ls ~/projects", TEXT, 1.9),
-        ("keylens/    apixray/    keygate/", CYAN, 2.6),
+        ("keylens/  apixray/  keygate/  apishadow/", CYAN, 2.6),
         ("acciv@keygate:~$ keygate status", TEXT, 3.4),
         ("policy: OK   vault: SEALED   audit: ACTIVE", GREEN, 4.1),
         ("acciv@keygate:~$ apixray inspect token", TEXT, 4.9),
@@ -243,7 +243,7 @@ def card(filename, name, tag, description, tags, color, glyph):
 def bodycount() -> None:
     w, h = 900, 180
     stats = [
-        ("03", "PROJECTS", GREEN),
+        ("04", "PROJECTS", GREEN),
         ("07", "LANGUAGES", CYAN),
         ("CI", "GREEN", GREEN),
         ("00", "KEYS LEAKED", AMBER),
@@ -320,6 +320,8 @@ if __name__ == "__main__":
          ["RUST", "C ABI", "PYTHON / C++"], CYAN, "02")
     card("case-keygate.svg", "keygate", "003", "Gateway для ключей с политиками и аудитом.",
          ["GO", "RUST POLICY", "SDK x4"], AMBER, "03")
+    card("case-apishadow.svg", "apishadow", "004", "Зеркалит API-трафик и ищет расхождения.",
+         ["GO PROXY", "RUST", "PYTHON DIFF"], CYAN, "04")
     bodycount()
     infection()
     footer()
