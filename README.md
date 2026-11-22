@@ -47,12 +47,13 @@
   <a href="https://github.com/acciv/keygate"><img src="assets/case-keygate.svg" width="49%" alt="keygate — gateway для ключей на Go и Rust с аудитом"/></a>
   <a href="https://github.com/acciv/apishadow"><img src="assets/case-apishadow.svg" width="49%" alt="apishadow — зеркалирование API-трафика и поиск расхождений"/></a>
   <a href="https://github.com/acciv/schema-registry"><img src="assets/case-schema-registry.svg" width="49%" alt="schema-registry — реестр API-схем и проверка совместимости версий"/></a>
+  <a href="https://github.com/acciv/apifuzz"><img src="assets/case-apifuzz.svg" width="49%" alt="apifuzz — генерация запросов из OpenAPI и поиск нарушений контракта"/></a>
 </p>
 
 <h3 align="center"><code>[ BODY COUNT ]</code></h3>
 
 <p align="center">
-  <img src="assets/bodycount.svg" width="100%" alt="5 проектов, 7 языков, CI зелёный, ключи не утекли"/>
+  <img src="assets/bodycount.svg" width="100%" alt="6 проектов, 7 языков, CI зелёный, ключи не утекли"/>
   <br/>
   <img src="assets/infection.svg" width="100%" alt="сетка коммитов: скан проходит по полю и очищает его"/>
 </p>
