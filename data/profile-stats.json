@@ -1,8 +1,8 @@
 {
   "followers": 1,
-  "public_repos": 10,
+  "public_repos": 11,
   "stars": 0,
-  "commits": 173,
+  "commits": 176,
   "repos": {
     "acciv": {
       "stars": 0,
@@ -43,20 +43,24 @@
     "tgbotscope": {
       "stars": 0,
       "size": 0
+    },
+    "tgkeyhunt": {
+      "stars": 0,
+      "size": 0
     }
   },
   "languages": [
     [
       "Rust",
-      136827
+      150865
     ],
     [
       "Python",
-      99579
+      114328
     ],
     [
       "Go",
-      95460
+      112639
     ],
     [
       "Java",
@@ -72,15 +76,15 @@
     ],
     [
       "Dockerfile",
-      5066
+      5585
     ],
     [
       "Makefile",
-      4237
+      4644
     ],
     [
       "C",
-      3260
+      4503
     ],
     [
       "PHP",
@@ -171,12 +175,12 @@
     0,
     0,
     0,
-    173
+    176
   ],
-  "activity_total": 173,
-  "generated": "2026-11-22T17:01:31.175197+00:00",
+  "activity_total": 176,
+  "generated": "2026-11-22T17:08:21.039074+00:00",
   "commits_by_repo": {
-    "acciv": 72,
+    "acciv": 73,
     "keylens": 13,
     "apixray": 23,
     "keygate": 30,
@@ -185,6 +189,7 @@
     "apifuzz": 1,
     "keygraph": 1,
     "apicanon": 1,
-    "tgbotscope": 1
+    "tgbotscope": 1,
+    "tgkeyhunt": 2
   }
 }

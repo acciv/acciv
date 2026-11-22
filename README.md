@@ -65,6 +65,7 @@
 
 <p align="center">
   <a href="https://github.com/acciv/tgbotscope"><img src="assets/card-tgbotscope-v2.svg" width="49%" alt="tgbotscope — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/tgkeyhunt"><img src="assets/card-tgkeyhunt-v2.svg" width="49%" alt="tgkeyhunt — открыть репозиторий"/></a>
 </p>
 
 <h3 align="center"><code>[ ARSENAL ]</code></h3>

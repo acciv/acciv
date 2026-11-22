@@ -241,7 +241,7 @@ def languages() -> None:
 
 def project_cards() -> None:
     w, h = 400, 164
-    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph", "apicanon", "tgbotscope"]
+    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph", "apicanon", "tgbotscope", "tgkeyhunt"]
     counts = STATS.get("commits_by_repo", {})
     descs = [
         "поиск утекших ключей в файлах",
@@ -253,6 +253,7 @@ def project_cards() -> None:
         "граф ключей, радиус поломки и ротация",
         "канонизация запросов и структурный diff",
         "каталог Telegram Bot API и связи типов",
+        "поиск утекших токенов Telegram",
     ]
     tags = [
         "PY · RUST · C++",
@@ -264,6 +265,7 @@ def project_cards() -> None:
         "RUST · GO · PY",
         "JAVA · JDK 17 · CLI",
         "TS · GO · PY",
+        "RUST · GO · PY",
     ]
     for i, name in enumerate(names):
         color = GREEN if i % 2 == 0 else CYAN
