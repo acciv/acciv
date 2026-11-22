@@ -60,17 +60,25 @@
 <h3 align="center"><code>[ ARSENAL ]</code></h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,python,cpp,java,php,bash,git&theme=dark&perline=8" alt="Rust, Go, Python, C++, Java, PHP, Bash, Git"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=docker,linux,githubactions&theme=dark" alt="Docker, Linux, GitHub Actions"/>
+  <a href="https://www.rust-lang.org/"><img src="https://skillicons.dev/icons?i=rust&amp;theme=dark" width="40" alt="Rust"/></a>
+  <a href="https://go.dev/"><img src="https://skillicons.dev/icons?i=go&amp;theme=dark" width="40" alt="Go"/></a>
+  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python&amp;theme=dark" width="40" alt="Python"/></a>
+  <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" width="40" alt="C++"/></a>
+  <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java&amp;theme=dark" width="40" alt="Java"/></a>
+  <a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php&amp;theme=dark" width="40" alt="PHP"/></a>
+  <a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash&amp;theme=dark" width="40" alt="Bash"/></a>
+  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git&amp;theme=dark" width="40" alt="Git"/></a>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" width="40" alt="Docker"/></a>
+  <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" width="40" alt="Linux"/></a>
+  <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions&amp;theme=dark" width="40" alt="GitHub Actions"/></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%20ABI-0b0f17?style=for-the-badge&logo=c&logoColor=00e5ff" alt="C ABI"/>
-  <img src="https://img.shields.io/badge/FFI-0b0f17?style=for-the-badge&logo=rust&logoColor=00ff9c" alt="FFI"/>
-  <img src="https://img.shields.io/badge/JWT-0b0f17?style=for-the-badge&logo=jsonwebtokens&logoColor=ffd166" alt="JWT"/>
-  <img src="https://img.shields.io/badge/Telegram_Bot_API-0b0f17?style=for-the-badge&logo=telegram&logoColor=00e5ff" alt="Telegram Bot API"/>
-  <img src="https://img.shields.io/badge/OpenAPI-0b0f17?style=for-the-badge&logo=openapiinitiative&logoColor=00ff9c" alt="OpenAPI"/>
+  <a href="https://en.wikipedia.org/wiki/C_ABI"><img src="https://img.shields.io/badge/C%20ABI-0b0f17?style=flat-square&amp;logo=c&amp;logoColor=00e5ff" alt="C ABI"/></a>
+  <a href="https://doc.rust-lang.org/nomicon/ffi.html"><img src="https://img.shields.io/badge/FFI-0b0f17?style=flat-square&amp;logo=rust&amp;logoColor=00ff9c" alt="FFI"/></a>
+  <a href="https://jwt.io/"><img src="https://img.shields.io/badge/JWT-0b0f17?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=ffd166" alt="JWT"/></a>
+  <a href="https://core.telegram.org/bots/api"><img src="https://img.shields.io/badge/Telegram_Bot_API-0b0f17?style=flat-square&amp;logo=telegram&amp;logoColor=00e5ff" alt="Telegram Bot API"/></a>
+  <a href="https://www.openapis.org/"><img src="https://img.shields.io/badge/OpenAPI-0b0f17?style=flat-square&amp;logo=openapiinitiative&amp;logoColor=00ff9c" alt="OpenAPI"/></a>
 </p>
 
 <p align="center">
