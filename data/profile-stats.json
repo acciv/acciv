@@ -1,8 +1,8 @@
 {
   "followers": 1,
-  "public_repos": 8,
+  "public_repos": 9,
   "stars": 0,
-  "commits": 169,
+  "commits": 171,
   "repos": {
     "acciv": {
       "stars": 0,
@@ -35,6 +35,10 @@
     "keygraph": {
       "stars": 0,
       "size": 0
+    },
+    "apicanon": {
+      "stars": 0,
+      "size": 0
     }
   },
   "languages": [
@@ -51,6 +55,10 @@
       81325
     ],
     [
+      "Java",
+      43488
+    ],
+    [
       "C++",
       22815
     ],
@@ -65,10 +73,6 @@
     [
       "C",
       3260
-    ],
-    [
-      "Java",
-      2583
     ],
     [
       "PHP",
@@ -159,18 +163,19 @@
     0,
     0,
     0,
-    169
+    171
   ],
-  "activity_total": 169,
-  "generated": "2026-11-22T16:44:03.130557+00:00",
+  "activity_total": 171,
+  "generated": "2026-11-22T16:55:12.461918+00:00",
   "commits_by_repo": {
-    "acciv": 70,
+    "acciv": 71,
     "keylens": 13,
     "apixray": 23,
     "keygate": 30,
     "apishadow": 30,
     "schema-registry": 1,
     "apifuzz": 1,
-    "keygraph": 1
+    "keygraph": 1,
+    "apicanon": 1
   }
 }

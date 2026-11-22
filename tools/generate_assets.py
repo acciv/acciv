@@ -239,7 +239,7 @@ def languages() -> None:
 
 def project_cards() -> None:
     w, h = 400, 164
-    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph"]
+    names = ["keylens", "apixray", "keygate", "apishadow", "schema-registry", "apifuzz", "keygraph", "apicanon"]
     counts = STATS.get("commits_by_repo", {})
     descs = [
         "поиск утекших ключей в файлах",
@@ -249,6 +249,7 @@ def project_cards() -> None:
         "версии API-схем и проверка совместимости",
         "запросы из OpenAPI и проверка контракта",
         "граф ключей, радиус поломки и ротация",
+        "канонизация запросов и структурный diff",
     ]
     tags = [
         "PY · RUST · C++",
@@ -258,6 +259,7 @@ def project_cards() -> None:
         "GO · RUST · PY",
         "RUST · GO · PY",
         "RUST · GO · PY",
+        "JAVA · JDK 17 · CLI",
     ]
     for i, name in enumerate(names):
         color = GREEN if i % 2 == 0 else CYAN

@@ -58,6 +58,7 @@
 
 <p align="center">
   <a href="https://github.com/acciv/keygraph"><img src="assets/card-keygraph-v2.svg" width="49%" alt="keygraph — открыть репозиторий"/></a>
+  <a href="https://github.com/acciv/apicanon"><img src="assets/card-apicanon-v2.svg" width="49%" alt="apicanon — открыть репозиторий"/></a>
 </p>
 
 <h3 align="center"><code>[ ARSENAL ]</code></h3>
