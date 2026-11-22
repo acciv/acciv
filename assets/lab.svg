@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" xml:space="preserve"><defs><style>.beam{animation:bm 4s linear infinite}@keyframes bm{0%{transform:translateX(0)}100%{transform:translateX(620px)}}
+.jit{animation:j .18s steps(2) infinite}@keyframes j{50%{transform:translate(1px,0)}}
+.typing{animation:t 3s steps(24) infinite}@keyframes t{0%{width:0}60%,100%{width:100%}}</style>
+<linearGradient id="beam" x1="0" x2="1"><stop stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff" stop-opacity=".5"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient></defs>
+<rect width="900" height="430" rx="12" fill="#0d1420" stroke="#16202e"/>
+<text x="24" y="34" font-size="12" letter-spacing="4" fill="#ff0055">[ KEY DISSECTION ]</text>
+<text x="24" y="62" font-size="19" fill="#e9edf2">ghp_<tspan fill="#00e5ff">••••••••••••</tspan><tspan fill="#ff0055">••••</tspan></text>
+<line x1="24" y1="80" x2="876" y2="80" stroke="#16202e"/>
+<g font-size="12">
+<rect x="24" y="104" width="170" height="92" rx="6" fill="#0b0f17" stroke="#00ff9c"/>
+<text x="40" y="130" fill="#6e7681">SEGMENT 00</text><text x="40" y="158" fill="#00ff9c" font-size="17">ghp</text><text x="40" y="180" fill="#6e7681">prefix</text>
+<rect x="212" y="104" width="360" height="92" rx="6" fill="#0b0f17" stroke="#00e5ff"/>
+<text x="228" y="130" fill="#6e7681">SEGMENT 01</text><text x="228" y="158" fill="#00e5ff" font-size="17">••••••••••••••••</text><text x="228" y="180" fill="#6e7681">payload · 36 chars</text>
+<rect x="590" y="104" width="286" height="92" rx="6" fill="#0b0f17" stroke="#ff0055"/>
+<text x="606" y="130" fill="#6e7681">SEGMENT 02</text><text x="606" y="158" fill="#ff0055" font-size="17">TEST</text><text x="606" y="180" fill="#6e7681">fake marker</text>
+</g>
+<rect x="24" y="222" width="620" height="3" fill="url(#beam)" class="beam"/>
+<g font-size="13">
+<text x="24" y="274" fill="#6e7681">ENTROPY</text><text x="180" y="274" fill="#e9edf2">4.496 bits</text>
+<text x="24" y="304" fill="#6e7681">CHARSET</text><text x="180" y="304" fill="#e9edf2">lower · upper · digit</text>
+<text x="24" y="334" fill="#6e7681">JWT DECODE</text><text x="180" y="334" fill="#e9edf2">alg: HS256 · signature NOT verified</text>
+<text x="24" y="364" fill="#6e7681">VERDICT</text><text x="180" y="364" fill="#ffd166">test material — rotate if ever exposed</text>
+</g>
+<rect x="640" y="250" width="236" height="140" rx="8" fill="#0b0f17" stroke="#00ff9c" class="jit"/>
+<text x="758" y="290" text-anchor="middle" font-size="11" fill="#6e7681">RISK SCORE</text>
+<text x="758" y="340" text-anchor="middle" font-size="46" font-weight="700" fill="#00ff9c">60</text>
+<text x="758" y="368" text-anchor="middle" font-size="11" fill="#6e7681">/ 100</text>
+<text x="24" y="410" font-size="11" fill="#00e5ff">STRUCTURE ONLY · NO BRUTE FORCE · NO BYPASS</text></svg>
