@@ -166,7 +166,7 @@ def stack_buttons() -> None:
     ]
     for slug, label, color in items:
         inner = (
-            f'<rect x="1" y="1" width="80" height="62" rx="8" fill="{PANEL2}" stroke="{GRID}"/>'
+            f'<rect x="1" y="1" width="80" height="62" rx="18" fill="{PANEL2}" stroke="{GRID}"/>'
             f'<rect x="1" y="1" width="3" height="62" rx="1.5" fill="{color}"/>'
             f'<text x="43" y="37" text-anchor="middle" font-size="12" fill="{color}">{label}</text>'
             f'<text x="71" y="55" text-anchor="end" font-size="9" fill="{MUTED}">↗</text>'
